@@ -1,0 +1,18 @@
+.header_top {
+  background-color: #ffffff;
+}
+.header_top_right {
+  display: flex;
+  justify-content: flex-end;
+  ul {
+    display: flex;
+    column-gap: 40px;
+  }
+}
+.header_top_left {
+  display: flex;
+  ul {
+    list-style-type: none;
+    text-align: center;
+  }
+}
