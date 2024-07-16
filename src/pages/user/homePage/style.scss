@@ -1,0 +1,30 @@
+.container_categories_slide {
+  max-width: 1200px;
+  background-color: white;
+  .categories_slide {
+    .categories_slide_items {
+      height: 300px;
+      display: flex; /* Use flexbox for layout */
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center items horizontally */
+      justify-content: center; /* Center items vertically */
+      text-align: center; /* Center text */
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+      ul {
+        list-style: none;
+        li {
+          display: flex; /* Flexbox for easy layout */
+          flex-direction: column; /* Stack items vertically */
+          align-items: center; /* Center items horizontally */
+          span {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}

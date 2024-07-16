@@ -1,5 +1,10 @@
 export const ROUTERS = {
   USER: {
-    HOME: "home-page",
+    HOME: "",
+    PHONE: "phone",
+    LAPTOP: "laptop",
+    DEVICE: "device",
+    TABLET: "tablet",
+    COMPUTER: "computer",
   },
 };

@@ -1,0 +1,44 @@
+.footer_bot {
+  background-color: #333;
+  color: white;
+
+  ul {
+    list-style-type: none;
+    li {
+      list-style: none;
+      padding: 10px;
+      span {
+        display: inline-block;
+        color: white;
+      }
+    }
+  }
+}
+.footer_about {
+  ul {
+    li {
+      img {
+        margin-top: 10px;
+        width: 150px;
+        height: 60px;
+      }
+    }
+  }
+}
+.col-lg-3 ul {
+  li {
+    //  margin-right: -80px;
+
+    ul {
+      //  display: flex;
+      li {
+        padding: 0;
+        img {
+          width: 80px; /* Adjust this value as needed */
+          height: auto;
+          /* Keeps the aspect ratio */
+        }
+      }
+    }
+  }
+}
